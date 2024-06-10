@@ -1,4 +1,4 @@
-public class AAC_SwitchCase {
+public class AAD_SwitchCase {
     public static void main(String[] args) {
         var gender = "X";
 
