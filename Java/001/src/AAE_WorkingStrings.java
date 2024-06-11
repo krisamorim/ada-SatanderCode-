@@ -1,3 +1,4 @@
+import java.time.LocalDateTime;
 import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;
@@ -24,6 +25,11 @@ public class AAE_WorkingStrings {
         Locale brasil = new Locale("pt", "BR");
         String week_Day = today.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil);
         System.out.println(week_Day);
+
+        String greetingMessage;
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now.getHour()+":"+now.getMinute());
+
 
     }
 }
